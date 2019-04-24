@@ -11,25 +11,27 @@
   flex: 50%;
   padding: 10px;
   background-color: transparent;
-  border:1px solid #000;
   border-radius: 2%;
   text-align: center;
+  padding-top: 20px;
 }
 
 body {
   margin: 0;
 }
 
-.topnav {
+.nav {
+  width: 100%;
+  height: 50px;
   overflow: hidden;
   background-color:transparent;
-  width: 100%;
-  text-align: center;
   position: relative;
-  display: inline-block;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  background-color: rgb(253, 247, 247);
 }
 
-.topnav a {
+.nav a {
   float: left;
   display: block;
   color:black;
@@ -38,7 +40,7 @@ body {
   text-decoration: none;
 }
 
-.topnav a:hover {
+.nav a:hover {
   background-color: #ddd;
   color: black;
 }
@@ -58,6 +60,12 @@ html {
 
 li {
   list-style: none
+}
+
+ul {
+  text-align: center;
+  position: relative;
+  display: inline-block;
 }
 
 body {               
@@ -90,4 +98,17 @@ a {
 .column a:hover {
   background-color: #ddd;
   color: black;
+}
+
+footer {
+padding-top: 250px;
+font-size: 0.8em;
+margin-top: 100px;
+padding-left: 20px;
+}
+
+p {
+  width 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
