@@ -19,7 +19,7 @@
 }
 body {
   margin: 20px;
-  border: 1px solid #000;
+  border: 20px solid #000;
   border-radius: 1%;
   display: table-cell;
   vertical-align: middle;
@@ -64,7 +64,10 @@ body {
 }
 
 html { 
-  background: url(images/city-background.jpg) no-repeat fixed; 
+  background: url(images/city-background.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   display: table;
@@ -130,7 +133,7 @@ padding-left: 10px;
 }
 
 p {
-  font-size: 0.8em;
+  font-size: 1.0em;
   width 100%;
   padding-left: 20px;
   padding-right: 20px;
