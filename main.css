@@ -19,7 +19,7 @@
 }
 body {
   margin: 20px;
-  border: 20px solid #000;
+  border: 1px solid #000;
   border-radius: 1%;
   display: table-cell;
   vertical-align: middle;
