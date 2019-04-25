@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Classes and IDs</title>
+    <meta charset="UTF-8">
+    <link href="main.css" rel="stylesheet" type="text/css"/>
+  </head>
+  
+  <body>
+      <div class="header">
+        <h1>Daniel van Ammers</h1> 
+        <p> Dev Academy Learning Log</p>
+      </div>
+    
+      <div class="nav">
+          <a href="index.html">Home</a>
+          <a href="a link goes here">Projects</a>
+          <a href="values.html">My Values</a>
+          <a href="a link goes here">Learning Plan</a>
+        </div>
+
+            <div class="header">
+             <h1>Classes vs IDs - Which One to Use and When?</h1>
+             <h3>25 April 2019</h3>
+            </div>
+             
+            <div class="content">
+                <h3>CLASSES</h3>
+
+                <p>We use classes when we want to apply a style to multiple elements.</p>
+
+                <p>Imagine we want to make a website with several paragraphs on each page, and we'd like our style to be uniform across them all. We could write the following in HTML:</p>
+            </div>
+
+            <div id="example-images">    
+                <img src="images/html-class-example.png">
+            </div>
+                
+            <div class="content">    
+                <p>Then, to apply the CSS, we write the following in our CSS file using the (code .) as the selector for classes:</p>
+            </div>
+           
+            <div id="example-images">
+                <img src="images/css-class-example.png">
+            </div>
+
+            <div class="content">
+                <p>Any time we want a new paragraph to replicate the styling of the rest of our websites paragraphs (in this case a uniform font-size of 20px), we can now use the class (code paragraph-font).</p>
+            </div>
+
+            <div class="content">
+                <h3>IDS</h3>
+
+                <p>While we can use classes for mulitple elements, IDs are unique and only apply to at most one element on the page. </p>
+
+                <p>If we wanted to add a border to the longer paragraph, but no other paragraphs, we could add an ID that will only apply to that one.</p>
+            </div>
+
+            <div id="example-images">
+                <img src="images/html-id-example.png">
+             </div>
+            
+            <div class="content">
+                <p>Now, we write the following in our CSS file using the (code #) as the CSS selector for IDs:</p>
+            </div>
+
+            <div id="example-images">
+                <img src="images/css-id-example.png">
+            </div>
+
+            <div class="content">
+                <p>This will apply a black border around only the longer paragraph.</p>
+
+                <p>Use IDs when you have a single element that you want to apply styling to, but would otherwise find difficult with CSS.</p>
+
+                <p>There you go! Now you can easily apply classes and IDs to elements to fully style and customize your page!
+            </div>
+
+                </p>
+                <footer>
+                <p>
+                 dvanammers@gmail.com
+                </p>
+                <p>
+                 Wellington, New Zealand
+                 </p>
+                </footer>
+                      
+    </body>
+                      
+</html>
