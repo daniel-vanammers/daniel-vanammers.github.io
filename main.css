@@ -16,21 +16,21 @@
   padding-top: 20px;
 }
 
+}
 body {
-  align-content: centre;
   margin: 20px;
   border: 1px solid #000;
   border-radius: 1%;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .nav {
   max-width: 100%;
   height: 50px;
   overflow: hidden;
-  background-color:transparent;
   position: relative;
-  border-bottom: 1px solid #000;
-  border-top: 1px solid #000;
+  border: 1px solid #000;
   background-color: rgb(253, 247, 247);
 } 
 
@@ -65,11 +65,10 @@ body {
 
 html { 
   background: url(images/city-background.jpg) no-repeat fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
+  display: table;
+  margin: auto;
 }
 
 li {
@@ -80,10 +79,6 @@ ul {
   text-align: center;
   position: relative;
   display: inline-block;
-}
-
-body {               
-  font-size: 22px;
 }
 
 h1 {
@@ -144,3 +139,4 @@ p {
 #example-images {
   text-align: center;
 }
+
