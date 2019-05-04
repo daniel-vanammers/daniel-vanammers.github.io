@@ -74,16 +74,28 @@ html {
   display: table;
   margin: auto;
 }
+code {
+  padding-left: 20px;
+  font-size: 0.9em;
+}
 
-li {
-  list-style: none;
-  padding-bottom: 20px;
+pre {
+  padding-left: 20px;
+  font-size: 0.9em;
+} 
+
+ol {
+  position: relative;
+  display: inline-block;
+  font-size: 0.7em;
 }
 
 ul {
   text-align: center;
   position: relative;
   display: inline-block;
+  list-style: none;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -100,6 +112,8 @@ h3 {
   font-size: 1.0em;
   margin-bottom: 1px;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 h4 {

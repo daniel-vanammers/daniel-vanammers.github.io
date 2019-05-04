@@ -27,6 +27,90 @@
             <h3>4 May 2019</h3>
            </div>
 
+           <h3>HTML and CSS as a Simple Analogy</h3>
+
+           <p>
+            We can use a car for an HTML and CSS Analogy:
+           </p>
+           <p>
+            HTML brings the car into existence by creating the elements that give it is form - it has an exterior,  windows, doors, 4 wheels and other bits and pieces that one would generally expect in a car.   
+           </p>
+           <p>
+            CSS comes along and describes the form of the car - it is gun metal grey, it has a leather steering wheel, it has alloy wheels.    
+           </p>
+           <p>
+            JavaScript gives the car it's functionality. It has windows that open and close, it has a stereo that can play music, it has buttons that the user can push to elicit outputs and the car can move from A to B.   
+           </p>
+
+           <h3>Control Flow and Loops</h3>
+
+           <p>Control flow is simply the order in which code is read - generally from the top of a page to the bottom. We can use loops to streamline the execution of repetitive tasks. For example:</p>
+
+           <p>Making an Omelette:</p>
+
+           <ol>
+            <li>Heat butter in a pan</li>
+            <li>Crack an egg into a bowl</li>
+            <li>Crack another egg into a bowl</li>
+            <li>Crack another egg into a bowl</li>
+            <li>Crack another egg into a bowl</li>
+            <li>Beat the eggs</li>
+            <li>Cook your omelette</li>
+           </ol>
+
+           <p>A loop would shorten this set of instructions to just 4 lines of code:</p>
+
+           <ol>
+            <li>Heat butter in a pan</li>
+            <li>Crack each egg you are using into a bowl</li>
+            <li>Beat the eggs</li>
+            <li>Cook your omelette</li>
+           </ol>
+
+           <p>This makes your code less verbose, less prone to error and easire to read.</p>
+           
+        
+           <h3>What is the DOM?</h3>
+
+           <p>Your browser displays a web document that is a combination of HTML, CSS and JavaScript. Underneath these three languages is a system that your browser uses to make sense of it all. This structure is known as the Document Object Model (DOM).</p>
+
+           <p>The DOM organises your document into a tree-like structure with each element a separate node. We can then use a language like JavaScript to independently access different elements at these nodes.</p>
+
+           <p>We use Developer Tools that are built into most browsers to access and manipulate our elements.</p>
+
+           <h3>Arrays and Objects</h3>
+
+           <p>Firstly, what is an array? An array basically helps us store, organise, manipulate and retrieve a collection of data. For example:</p>
+
+           <p><code> milkTypes = [“Soy”, “Almond”, “Moo Cow”, “Hemp”];</code></p>
+
+           <p>Each of the strings in an array has an index, which starts at the number zero and works up in increments of one [0,1,2,3,4] etc. We can access the data using their indexes:</p>
+
+           <p><code>milkTypes[2]</code> will access the data point “Moo Cow”.</p>
+
+           <p>Almost everything in JavaScript is an object, which can be considered a collection of named values. For example:</p>
+
+           <p><pre>var thisGuyRightHere = {firstName: “Dan”,
+                        lastName: “van Ammers”,
+                        age: 31,
+                        eyeColor: “blue”};
+           </pre></p>
+
+           <p>The variable “thisGuyRightHere” points to an object with a selection of different named values, with information after the colons as the properties. We can access these properties in two ways. Either with dot notation like so:</p>
+
+           <p><code>thisGuyRightHere.lastName</code> which will return the property “van Ammers”.</p>
+
+           <p>Or with bracket notation as follows:</p>
+
+           <p><code>thisGuyRightHere[“age”]</code> which will return the property 31.</p>
+
+           <h3>Functions!</h3>
+
+           <p>Functions are one of the fundamental building blocks in JavaScript. A function is a set of statements that performs a defined task and returns a result to the user. The idea is to make a function that will streamline a repetitive task to save you from writing the same code again and again. This serves the dual purpose of saving you time and avoiding needlessly verbose code.</p>
+
+           <p>An easy example is a loop function that removes the necessity of repeating duplicate steps to deliver a result.</p>
+
+       
 
 
 <footer>
