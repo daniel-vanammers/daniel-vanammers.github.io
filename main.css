@@ -8,7 +8,7 @@
 }
 
 .column {
-  flex: 50%;
+  flex: 40%;
   padding: 10px;
   background-color: transparent;
   text-align: center;
@@ -107,6 +107,7 @@ h1 {
 h2 {
   font-size: 1.6em;
   margin-bottom: 1px;
+  text-align: center;
 }
 
 h3 {
